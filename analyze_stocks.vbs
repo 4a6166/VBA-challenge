@@ -2,8 +2,8 @@ Sub clearTables()
     ' clears cols i-p to help with testing
     For Each ws In Sheets
         ws.Activate
-        Range("i1:p500").Clear
-        Range("i1:p500").FormatConditions.Delete
+        Range("i:p").Clear
+        Range("i:p").FormatConditions.Delete
         
     Next ws
 End Sub
